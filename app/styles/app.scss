@@ -1,0 +1,15 @@
+@import 'about';
+@import 'events';
+@import 'logistics';
+@import 'mission';
+@import 'security';
+@import 'training';
+
+.section {
+  padding: 1rem;
+}
+
+.container {
+  max-width: 65rem;
+  margin: auto;
+}
