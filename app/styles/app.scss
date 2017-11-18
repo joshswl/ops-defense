@@ -1,3 +1,9 @@
+$c-dark-grey: #2E2A24;
+$c-orange: #B84D38;
+$c-beige: #E1CFB6;
+
+$m-gutter: 1rem;
+
 @import 'reset';
 @import 'home';
 @import 'events';
@@ -8,7 +14,7 @@
 @import 'contact';
 
 .section {
-  padding: 1rem;
+  padding: $m-gutter;
 }
 
 .container {
@@ -21,16 +27,22 @@
   width: 100%;
 }
 
-.top-bar::after {
-  content: '';
-  display: block;
-  background: #2E2A24;
-  height: 5px;
+.top-nav {
+  padding: $m-gutter;
+  display: flex;
+  background: $c-dark-grey;
+  justify-content: center;
+
+  &__text {
+    padding: 0 $m-gutter * 4;
+    color: $c-beige;
+    width: 40rem;
+    font-size: 3rem;
+  }
 }
 
 .logo {
-  font-size: 3em;
-  margin-left: 25px;
+  width: 20rem;
 }
 
 .second-bar {
@@ -41,7 +53,7 @@
 .main-nav a {
   float: left;
   width: 14.285714285%;
-  background: #E1CFB6;
+  background: $c-beige;
 }
 
 .main-nav>a:first-child {
