@@ -1,6 +1,7 @@
 $c-dark-grey: #2E2A24;
 $c-orange: #B84D38;
 $c-beige: #E1CFB6;
+$c-tan: #B49367;
 
 $m-gutter: 1rem;
 
@@ -41,6 +42,11 @@ $m-gutter: 1rem;
   }
 }
 
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
 .logo {
   width: 20rem;
 }
@@ -75,4 +81,5 @@ nav a {
   color: $c-beige;
   background: $c-dark-grey;
   padding: 0 $m-gutter;
+  width: 100%;
 }
