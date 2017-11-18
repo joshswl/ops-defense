@@ -46,15 +46,13 @@ $m-gutter: 1rem;
   width: 20rem;
 }
 
-.second-bar {
-  width: 100%;
-  border-radius: 10px;
-}
-
 .main-nav a {
   float: left;
   width: 14.285714285%;
   background: $c-beige;
+  border-color: $c-orange;
+  border-bottom: 10rem;
+  font-weight: bold;
 }
 
 .main-nav>a:first-child {
