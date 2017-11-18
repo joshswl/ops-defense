@@ -1,25 +1,26 @@
 <div class="app">
-  <nav class="navbar navbar-default negative-margin">
-    <div class="container">
-      <div class="nav navbar-nav">
-        <li class="nav-text">{{#link-to "home"}}Home{{/link-to}}</li>
-        <li class="nav-text">{{#link-to "mission"}}Our Mission{{/link-to}}</li>
-        <li class="nav-text">{{#link-to "logistics"}}Logistics{{/link-to}}</li>
-        <li class="nav-text">{{#link-to "security"}}Security{{/link-to}}</li>
-        <li class="nav-text">{{#link-to "training"}}Training{{/link-to}}</li>
-        <li class="nav-text">{{#link-to "events"}}Events{{/link-to}}</li>
-        <li class="nav-text">{{#link-to "contact"}}Contact{{/link-to}}</li>
-      </div>
-    </div>
-  </nav>
+  <div class="top-bar">
+    <h1 class="logo">OPS DEFENSE CORPORATION</h1>
+  </div>
+  <div class="second-bar">
+    <nav class="main-nav">
+      <div class="nav-hover" href="#">{{#link-to "home"}}Home{{/link-to}}</div>
+      <div class="nav-hover" href="#">{{#link-to "mission"}}Mission{{/link-to}}</div>
+      <div class="nav-hover" href="#">{{#link-to "logistics"}}Logistics{{/link-to}}</div>
+      <div class="nav-hover" href="#">{{#link-to "security"}}Security{{/link-to}}</div>
+      <div class="nav-hover" href="#">{{#link-to "training"}}Training{{/link-to}}</div>
+      <div class="nav-hover" href="#">{{#link-to "events"}}Events{{/link-to}}</div>
+      <div class="nav-hover" href="#">{{#link-to "contact"}}Contact{{/link-to}}</div>
+    </nav>
+  </div>
+</div>
 
 {{outlet}}
 
 <footer class="footer">
-    <div class="section">
-      <div class="container">
-        <p class="flex-end">© 2017 Ops Defense Corporation</p>
-      </div>
+  <div class="section">
+    <div class="container">
+      <p class="flex-end">© 2017 Ops Defense Corporation</p>
     </div>
-  </footer>
-</div>
+  </div>
+</footer>

@@ -7,7 +7,6 @@
 @import 'training';
 @import 'contact';
 
-
 .section {
   padding: 1rem;
 }
@@ -15,4 +14,50 @@
 .container {
   max-width: 65rem;
   margin: auto;
+}
+
+.app {
+  width: 90%;
+  margin: auto;
+}
+
+.top-bar::after {
+  content: '';
+  display: block;
+  background: #494949;
+  height: 5px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.logo {
+  font-size: 3em;
+  margin-left: 25px;
+  color: white;
+}
+
+.second-bar {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.main-nav a {
+  float: left;
+  width: 14.285714285%;
+  background: #343434;
+}
+
+.main-nav>a:first-child {
+  border-bottom-left-radius: 3px
+}
+
+.main-nav>a:last-child {
+  border-bottom-right-radius: 3px
+}
+
+nav a {
+  color: inherit;
+  display: inline-block;
+  padding: 17px 25px;
+  text-align: center;
 }
