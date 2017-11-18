@@ -17,23 +17,20 @@
 }
 
 .app {
-  width: 90%;
   margin: auto;
+  width: 80%;
 }
 
 .top-bar::after {
   content: '';
   display: block;
-  background: #494949;
+  background: #2E2A24;
   height: 5px;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
 }
 
 .logo {
   font-size: 3em;
   margin-left: 25px;
-  color: white;
 }
 
 .second-bar {
@@ -44,7 +41,7 @@
 .main-nav a {
   float: left;
   width: 14.285714285%;
-  background: #343434;
+  background: #E1CFB6;
 }
 
 .main-nav>a:first-child {
