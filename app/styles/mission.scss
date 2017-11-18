@@ -7,6 +7,10 @@
   background-repeat: no-repeat;
   background-position: center center;
 
+  &__title {
+    color: $c-beige;
+  }
+
   &__description {
     color: $c-beige;
   }

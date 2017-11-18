@@ -17,7 +17,7 @@
       flex-basis: calc(100% / 3 - 1rem);
       flex-grow: 1;
       margin: $m-gutter * 2;
-      background: linear-gradient(rgba($c-orange,.3),rgba($c-orange,.3));
+      background: linear-gradient(rgba($c-orange,.5),rgba($c-tan,.5));
       padding: $m-gutter * 2;
     }
   }
@@ -35,6 +35,10 @@
     text-align: center;
     font-weight: bold;
     height: 20rem;
+  }
+
+  &__title {
+    color: $c-beige;
   }
 
   &__description {
