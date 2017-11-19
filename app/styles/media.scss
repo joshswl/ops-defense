@@ -16,7 +16,11 @@
 
     &__item {
       border: $c-orange 1px solid;
-      width: calc(100% / 1 - 6rem);
+      width: calc(100% / 1 - 1rem);
+
+      &--text {
+        width: 100%;
+      }
     }
   }
 
