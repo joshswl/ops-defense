@@ -23,8 +23,9 @@
 
   &__text {
     padding: $m-gutter * 2;
-    width: 60%;
-    background: linear-gradient(rgba($c-tan,.7),rgba($c-dark-grey,.5));
+    width: 65%;
+    background: linear-gradient(rgba($c-dark-grey,.7),rgba($c-tan,.5));
+    border-radius: 2.5rem;
   }
 
   &__title {
@@ -39,7 +40,8 @@
 
   &__img {
     padding: $m-gutter * 2;
-    width: 60%;
-    background: linear-gradient(rgba($c-tan,.7),rgba($c-dark-grey,.5));
+    width: 65%;
+    background: linear-gradient(rgba($c-dark-grey,.7),rgba($c-tan,.5));
+    border-radius: 2.5rem;
   }
 }
