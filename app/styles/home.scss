@@ -7,18 +7,18 @@
   background-repeat: no-repeat;
   background-position: center center;
 
-  .grid {
+  &__grid {
     display: flex;
     justify-content: center;
     flex-direction: column;
 
     &__item {
       display: flex;
-      flex-basis: calc(100% / 3 - 1rem);
       flex-grow: 1;
       margin: $m-gutter * 2;
       background: linear-gradient(rgba($c-orange,.7),rgba($c-tan,.5));
       padding: $m-gutter * 2;
+      border-radius: 2.5rem;
     }
   }
 

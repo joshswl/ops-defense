@@ -7,6 +7,30 @@
   background-repeat: no-repeat;
   background-position: center center;
 
+  &__grid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    &__item {
+      display: flex;
+      flex-grow: 1;
+      margin: $m-gutter * 2;
+      background: linear-gradient(rgba($c-orange,.7),rgba($c-tan,.5));
+      padding: $m-gutter * 2;
+      border-radius: 2.5rem;
+    }
+  }
+
+  &__img {
+    width: 60%;
+  }
+
+  &__text {
+    padding: $m-gutter * 2;
+    width: 40%;
+  }
+
   &__title {
     color: $c-beige;
   }
