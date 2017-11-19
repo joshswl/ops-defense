@@ -1,0 +1,18 @@
+.training {
+  padding: $m-gutter * 4;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba($c-tan,.9),rgba($c-beige,.9)),url('/img/bg-training.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  &__title {
+    color: $c-orange;
+  }
+
+  &__description {
+    font-weight: bold;
+    color: $c-dark-grey;
+  }
+}
