@@ -3,12 +3,6 @@
     max-width: 100rem;
   }
 
-  nav a {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-  }
-
   .top-nav {
     flex-direction: column;
 
@@ -18,7 +12,13 @@
   }
 
   .main-nav {
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    &__item {
+      border: $c-orange 1px solid;
+      width: calc(100% / 2 - 6rem);
+    }
   }
 
   .home {
@@ -51,14 +51,6 @@
       &__item {
         flex-direction: column;
       }
-    }
-
-    &__img {
-      width: 100%;
-    }
-
-    &__text {
-      width: 100%;
     }
   }
 

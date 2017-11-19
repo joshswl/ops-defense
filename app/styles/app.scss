@@ -48,16 +48,22 @@ $m-gutter: 1rem;
   width: 20rem;
 }
 
-.main-nav {
-  display: flex;
-  justify-content: center;
-  background: $c-beige;
-  font-weight: bold;
+.nav-bar {
   border-top: $c-orange 2px solid;
   border-bottom: $c-orange 2px solid;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  background: $c-beige;
+  font-weight: bold;
 
   &__item {
-    padding: $m-gutter;
+    text-align: center;
+    text-transform: uppercase;
+    margin: $m-gutter / 2;
+    padding: $m-gutter / 2;
   }
 }
 
