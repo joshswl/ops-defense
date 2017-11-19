@@ -1,0 +1,86 @@
+@media (min-width: 400px) and (max-width: 650px) {
+  .container {
+    max-width: 100rem;
+  }
+
+  nav a {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .top-nav {
+    flex-direction: column;
+
+    &__text {
+      width: 20rem;
+    }
+  }
+
+  .main-nav {
+    width: 100%;
+  }
+
+  .home {
+
+    &__grid {
+
+      &__item {
+        flex-direction: column;
+      }
+    }
+
+    &__img {
+      max-height: 100%;
+      width: 100%;
+    }
+
+    &__text {
+      font-size: 22px;
+    }
+  }
+
+  .logistics {
+    font-size: 22px;
+  }
+
+  .security {
+
+    &__grid {
+
+      &__item {
+        flex-direction: column;
+      }
+    }
+
+    &__img {
+      width: 100%;
+    }
+
+    &__text {
+      width: 100%;
+    }
+  }
+
+  .training {
+
+    &__grid {
+      flex-direction: column;
+
+      &__item {
+        width: 100%;
+      }
+    }
+
+    &__text {
+      font-size: 22px;
+    }
+  }
+
+  .contact {
+
+    &__text {
+      font-size: 22px;
+    }
+  }
+}

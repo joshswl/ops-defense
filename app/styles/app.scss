@@ -12,6 +12,7 @@ $m-gutter: 1rem;
 @import 'security';
 @import 'training';
 @import 'contact';
+@import 'media';
 
 .section {
   padding: $m-gutter;
@@ -28,45 +29,36 @@ $m-gutter: 1rem;
 }
 
 .top-nav {
-  padding: $m-gutter;
   display: flex;
-  background: $c-dark-grey;
   justify-content: center;
+  align-items: center;
+  background: $c-dark-grey;
 
   &__text {
-    padding: 0 $m-gutter * 4;
+    padding: $m-gutter;
     color: $c-beige;
-    width: 40rem;
-    font-size: 3rem;
+    font-size: 50px;
+    text-align: center;
   }
 }
 
 .logo {
+  border: $c-tan 2.5px solid;
+  margin: $m-gutter;
   width: 20rem;
 }
 
-.main-nav a {
-  float: left;
-  width: 16.666666666%;
+.main-nav {
+  display: flex;
+  justify-content: center;
   background: $c-beige;
-  border-color: $c-orange;
-  border-bottom: 10rem;
   font-weight: bold;
-}
+  border-top: $c-orange 2px solid;
+  border-bottom: $c-orange 2px solid;
 
-.main-nav>a:first-child {
-  border-bottom-left-radius: 3px
-}
-
-.main-nav>a:last-child {
-  border-bottom-right-radius: 3px
-}
-
-nav a {
-  color: inherit;
-  display: inline-block;
-  padding: 17px 25px;
-  text-align: center;
+  &__item {
+    padding: $m-gutter;
+  }
 }
 
 .footer {

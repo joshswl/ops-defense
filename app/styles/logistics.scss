@@ -2,17 +2,14 @@
   padding: $m-gutter * 4;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba($c-orange,.9),rgba($c-beige,.9)),url('/img/bg-logistics.jpg');
+  background: linear-gradient(rgba($c-dark-grey,.75),rgba($c-dark-grey,.75)),url('/img/bg-logistics.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 
-  &__title {
-    color: $c-beige;
-  }
-
-  &__description {
+  &__text {
     font-weight: bold;
-    color: $c-dark-grey;
+    font-size: 18px;
+    color: $c-beige;
   }
 }
