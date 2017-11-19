@@ -9,7 +9,6 @@ $m-gutter: 1rem;
 @import 'home';
 @import 'events';
 @import 'logistics';
-@import 'mission';
 @import 'security';
 @import 'training';
 @import 'contact';
@@ -48,7 +47,7 @@ $m-gutter: 1rem;
 
 .main-nav a {
   float: left;
-  width: 14.285714285%;
+  width: 16.666666666%;
   background: $c-beige;
   border-color: $c-orange;
   border-bottom: 10rem;

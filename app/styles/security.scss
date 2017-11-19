@@ -1,0 +1,17 @@
+.security {
+  padding: $m-gutter * 4;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba($c-dark-grey,.75),rgba($c-dark-grey,.75)),url('/img/bg-mission.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  &__title {
+    color: $c-beige;
+  }
+
+  &__description {
+    color: $c-beige;
+  }
+}
