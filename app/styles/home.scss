@@ -1,5 +1,5 @@
 .home {
-  padding: $m-gutter * 2.25 0;
+  padding-top: $m-gutter * 2;
   background: linear-gradient(rgba($c-tan,.9),rgba($c-beige,.7)),url('/img/bg-home.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,21 +14,18 @@
     &__item {
       display: flex;
       flex-grow: 1;
-      margin: $m-gutter * 1.5;
+      margin: $m-gutter;
       background: linear-gradient(rgba($c-orange,.7),rgba($c-tan,.5));
     }
   }
 
   &__img {
     width: 40%;
-    padding: $m-gutter * 1.5;
   }
 
   &__text {
-    padding: $m-gutter * 1.5;
-    text-align: center;
-    font-weight: bold;
-    font-size: 18px;
+    padding: 0 ($m-gutter * 2);
+    font-size: 20px;
     color: $c-dark-grey;
   }
 
