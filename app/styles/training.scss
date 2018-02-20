@@ -4,36 +4,35 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  min-height: 90vh;
 
   &__grid {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
 
     &__item {
       display: flex;
-      justify-content: center;
-      width: calc(100% / 2 - 2rem);
       flex-grow: 1;
-      margin: $m-gutter 0;
       background: linear-gradient(rgba($c-dark-grey,.7),rgba($c-tan,.5));
     }
   }
 
-  &__text {
-    text-align: center;
+  &__img {
     padding: $m-gutter * 1.5;
-    font-size: 18px;
-    font-weight: bold;
-    color: $c-dark-grey;
+    width: 60%;
+  }
+
+  &__text {
+    padding: $m-gutter * 1.5;
   }
 
   &__title {
     color: $c-beige;
   }
 
-  &__img {
-    padding: $m-gutter * 1.5;
+  &__description {
+    font-size: 22px;
+    color: $c-beige;
   }
 }

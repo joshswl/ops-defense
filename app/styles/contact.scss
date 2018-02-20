@@ -4,9 +4,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  min-height: 90vh;
 
-  &__text{
-    font-size: 18px;
+  &__text {
+    font-size: 25px;
     font-weight: bold;
   }
 }

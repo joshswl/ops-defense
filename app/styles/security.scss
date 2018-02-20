@@ -4,6 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  min-height: 90vh;
 
   &__grid {
     display: flex;
@@ -25,7 +26,6 @@
 
   &__text {
     padding: $m-gutter * 1.5;
-    width: 40%;
   }
 
   &__title {

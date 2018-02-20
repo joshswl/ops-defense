@@ -68,15 +68,18 @@
   .training {
 
     &__grid {
-      flex-direction: column;
 
       &__item {
-        width: 100%;
+        flex-direction: column;
       }
     }
 
+    &__img {
+      width: 100%;
+    }
+
     &__text {
-      font-size: 22px;
+      width: 100%;
     }
   }
 
