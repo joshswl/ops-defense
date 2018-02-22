@@ -1,13 +1,13 @@
 body {
-  background-color: #E1CFB6;
-  color: #2E2A24;
+  background-color: $c-beige;
+  color: $c-dark-grey;
+  font-family: 'Roboto', sans-serif;
   margin: 0 auto;
-  font-family: "Roboto", sans-serif;
 }
 
 ul {
-  padding-left: 0;
   list-style: none;
+  padding-left: 0;
 }
 
 img {
@@ -16,8 +16,8 @@ img {
 }
 
 a {
-  text-decoration: none;
   color: inherit;
+  text-decoration: none;
 }
 
 * {

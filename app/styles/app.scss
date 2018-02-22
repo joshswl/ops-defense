@@ -1,7 +1,11 @@
 $c-dark-grey: #2E2A24;
+$c-dark-grey-skin: rgba($c-dark-grey,.75);
 $c-orange: #B84D38;
+$c-orange-skin: rgba($c-orange,.9);
 $c-beige: #E1CFB6;
+$c-beige-skin: rgba($c-beige,.9);
 $c-tan: #B49367;
+$c-tan-skin: rgba($c-tan,.9);
 
 $m-gutter: 1rem;
 
@@ -28,20 +32,6 @@ $m-gutter: 1rem;
   width: 100%;
 }
 
-.top-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: $c-dark-grey;
-
-  &__text {
-    padding: $m-gutter;
-    color: $c-beige;
-    font-size: 50px;
-    text-align: center;
-  }
-}
-
 .logo {
   border: $c-tan 2.5px solid;
   margin: $m-gutter;
@@ -60,7 +50,7 @@ $m-gutter: 1rem;
   background: $c-beige;
   font-weight: bold;
 
-  &__item {
+  &--item {
     text-align: center;
     text-transform: uppercase;
     margin: $m-gutter / 2;
@@ -70,7 +60,7 @@ $m-gutter: 1rem;
 
 .footer {
   color: $c-orange;
-  background: $c-beige;
   padding: 0 $m-gutter;
+  background: $c-beige;
   width: 100%;
 }

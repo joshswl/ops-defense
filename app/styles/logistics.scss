@@ -1,13 +1,13 @@
 .logistics {
-  padding-top: $m-gutter * 2;
-  background: linear-gradient(rgba($c-dark-grey,.75),rgba($c-dark-grey,.75)),url('/img/bg-logistics.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient($c-dark-grey-skin, $c-dark-grey-skin), url('/img/bg-logistics.jpg');
   background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 90vh;
+  padding-top: $m-gutter * 2;
 
-  &__text {
-    font-size: 22px;
+  &--text {
     color: $c-beige;
+    font-size: 22px;
   }
 }

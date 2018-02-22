@@ -1,19 +1,19 @@
 .events {
-  padding-top: $m-gutter * 2;
-  background: linear-gradient(rgba($c-orange,.9),rgba($c-beige,.9)),url('/img/bg-events.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient($c-orange-skin, $c-beige-skin), url('/img/bg-events.jpg');
   background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 90vh;
+  padding-top: $m-gutter * 2;
 
-  &__title {
-    font-size: 50px;
+  &-title {
     color: $c-beige;
+    font-size: 50px;
   }
 
-  &__description {
+  &-description {
+    color: $c-dark-grey;
     font-size: 30px;
     font-weight: bold;
-    color: $c-dark-grey;
   }
 }

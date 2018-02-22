@@ -3,18 +3,10 @@
     max-width: 100rem;
   }
 
-  .top-nav {
-    flex-direction: column;
-
-    &__text {
-      width: 20rem;
-    }
-  }
-
   .main-nav {
     flex-wrap: wrap;
 
-    &__item {
+    &--item {
       border: $c-orange 1px solid;
       width: calc(100% / 1 - 1rem);
 
@@ -26,19 +18,16 @@
 
   .home {
 
-    &__grid {
-
-      &__item {
-        flex-direction: column;
-      }
+    &--grid--item {
+      flex-direction: column;
     }
 
-    &__img {
+    &--img {
       max-height: 100%;
       width: 100%;
     }
 
-    &__text {
+    &--text {
       font-size: 22px;
     }
   }
@@ -49,35 +38,29 @@
 
   .security {
 
-    &__grid {
-
-      &__item {
-        flex-direction: column;
-      }
+    &--grid--item {
+      flex-direction: column;
     }
 
-    &__img {
+    &--img {
       width: 100%;
     }
   }
 
   .training {
 
-    &__grid {
-
-      &__item {
-        flex-direction: column;
-      }
+    &--grid--item {
+      flex-direction: column;
     }
 
-    &__img {
+    &--img {
       width: 100%;
     }
   }
 
   .contact {
 
-    &__text {
+    &--text {
       font-size: 22px;
     }
   }

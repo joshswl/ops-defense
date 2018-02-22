@@ -1,35 +1,35 @@
 .home {
   padding-top: $m-gutter * 2;
-  background: linear-gradient(rgba($c-tan,.9),rgba($c-beige,.7)),url('/img/bg-home.jpg');
+  background: linear-gradient(rgba($c-tan, .9), rgba($c-beige, .7)), url('/img/bg-home.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
   min-height: 90vh;
+  background-position: center center;
 
-  &__grid {
+  &--grid {
     display: flex;
     justify-content: center;
     flex-direction: column;
 
-    &__item {
+    &--item {
       display: flex;
       flex-grow: 1;
       margin: $m-gutter;
-      background: linear-gradient(rgba($c-orange,.7),rgba($c-tan,.5));
+      background: linear-gradient(rgba($c-orange, .7), rgba($c-tan, .5));
     }
   }
 
-  &__img {
+  &--img {
     width: 40%;
   }
 
-  &__text {
+  &--text {
     padding: 0 ($m-gutter * 2);
     font-size: 20px;
     color: $c-dark-grey;
   }
 
-  &__title {
+  &--title {
     color: $c-beige;
   }
 }

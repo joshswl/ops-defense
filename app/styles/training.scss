@@ -1,37 +1,36 @@
 .training {
-  padding: $m-gutter * 2.25;
-  background: linear-gradient(rgba($c-tan,.9),rgba($c-beige,.9)),url('/img/bg-training.png');
-  background-size: cover;
+  background: linear-gradient($c-tan-skin, $c-beige-skin), url('/img/bg-training.png');
   background-repeat: no-repeat;
-  background-position: center center;
+  background-size: cover;
   min-height: 90vh;
+  padding: $m-gutter * 2.25;
 
-  &__grid {
+  &--grid {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
 
-    &__item {
+    &--item {
+      background: linear-gradient($c-dark-grey-skin, $c-tan-skin);
       display: flex;
       flex-grow: 1;
-      background: linear-gradient(rgba($c-dark-grey,.7),rgba($c-tan,.5));
     }
   }
 
-  &__img {
+  &--img {
     width: 60%;
   }
 
-  &__text {
+  &--text {
     padding: $m-gutter * 2;
   }
 
-  &__title {
+  &--title {
     color: $c-beige;
   }
 
-  &__description {
-    font-size: 22px;
+  &--description {
     color: $c-beige;
+    font-size: 22px;
   }
 }

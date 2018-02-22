@@ -1,38 +1,38 @@
 .security {
-  padding: $m-gutter * 2.25 0;
-  background: linear-gradient(rgba($c-dark-grey,.75),rgba($c-dark-grey,.75)),url('/img/bg-mission.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient($c-dark-grey-skin, $c-dark-grey-skin), url('/img/bg-mission.jpg');
   background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   min-height: 90vh;
+  padding: $m-gutter * 2.25 0;
 
-  &__grid {
+  &--grid {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
 
-    &__item {
+    &--item {
+      background: linear-gradient($c-orange-skin, $c-tan-skin);
       display: flex;
       flex-grow: 1;
       margin: $m-gutter * 2;
-      background: linear-gradient(rgba($c-orange,.7),rgba($c-tan,.5));
     }
   }
 
-  &__img {
+  &--img {
     width: 60%;
   }
 
-  &__text {
+  &--text {
     padding: $m-gutter * 2;
   }
 
-  &__title {
+  &--title {
     color: $c-beige;
   }
 
-  &__description {
-    font-size: 22px;
+  &--description {
     color: $c-beige;
+    font-size: 22px;
   }
 }
