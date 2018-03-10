@@ -10,4 +10,8 @@
     font-size: 25px;
     font-weight: bold;
   }
+
+  &--title {
+    border-bottom: $c-dark-grey 4px solid;
+  }
 }

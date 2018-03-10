@@ -4,10 +4,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 90vh;
-  padding-top: $m-gutter * 2;
+  padding: ($m-gutter * 2) 0;
 
   &--text {
     color: $c-beige;
     font-size: 26px;
+  }
+
+  &--title {
+    border-bottom: 3px solid;
   }
 }

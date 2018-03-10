@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 90vh;
-  padding-top: $m-gutter * 2;
+  padding: ($m-gutter * 2) 0;
 
   &--grid {
     display: flex;
@@ -27,9 +27,5 @@
     color: $c-dark-grey;
     font-size: 20px;
     padding: 0 ($m-gutter * 2);
-  }
-
-  &--title {
-    color: $c-beige;
   }
 }

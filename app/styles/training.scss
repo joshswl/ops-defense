@@ -1,9 +1,9 @@
 .training {
-  background: linear-gradient($c-tan-skin, $c-beige-skin), url('/img/bg-training.png');
+  background: linear-gradient($c-orange-skin, $c-beige-skin), url('/img/bg-training.png');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 90vh;
-  padding: $m-gutter * 2.25;
+  padding: ($m-gutter * 2.25) 0;
 
   &--grid {
     display: flex;
@@ -27,6 +27,7 @@
 
   &--title {
     color: $c-beige;
+    font-size: 40px;
   }
 
   &--description {

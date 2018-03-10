@@ -4,11 +4,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 90vh;
-  padding-top: $m-gutter * 2;
+  padding: ($m-gutter * 2) 0;
 
   &-title {
-    color: $c-beige;
-    font-size: 50px;
+    border-bottom: $c-dark-grey 4px solid;
+    color: $c-dark-grey;
+    font-size: 60px;
   }
 
   &-description {

@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 90vh;
-  padding: $m-gutter * 2.25 0;
+  padding: ($m-gutter * 2.25) 0;
 
   &--grid {
     display: flex;
@@ -15,7 +15,6 @@
       background: linear-gradient($c-orange-skin, $c-tan-skin);
       display: flex;
       flex-grow: 1;
-      margin: $m-gutter * 2;
     }
   }
 
@@ -28,11 +27,10 @@
   }
 
   &--title {
-    color: $c-beige;
+    font-size: 40px;
   }
 
   &--description {
-    color: $c-beige;
     font-size: 20px;
   }
 }
