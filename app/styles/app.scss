@@ -39,9 +39,7 @@ $m-gutter: 1rem;
 }
 
 .main-nav {
-  background: $c-beige;
   display: flex;
-  font-weight: bold;
   justify-content: center;
 
   &--item {
@@ -83,8 +81,6 @@ $m-gutter: 1rem;
 }
 
 .footer {
-  background: $c-beige;
-  color: $c-orange;
-  padding: 0 $m-gutter;
+  margin: ($m-gutter * 2) 0;
   width: 100%;
 }
